@@ -4,90 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework 11</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alien+Block&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alien+Block&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="style.css" />
-
   </head>
   <body>
+    <header>
+      <img src="images/Logo.png" />
 
+      <a href="#" class="active">Home</a>
+      <a href="#">Explore</a>
+      <a href="#">Travel</a>
+      <a href="#">Blog</a>
+      <a href="#">Pricing</a>
 
-  <header>
-    
-    <img src="images/Logo.png">
-    
-    <a href="#" class="active">Home</a>
-    <a href="#">Explore</a>
-    <a href="#">Travel</a>
-    <a href="#">Blog</a>
-    <a href="#">Pricing</a>
+      <a href="#" class="login">Login</a>
+      <a href="#" class="signup">Sign up</a>
+    </header>
 
-    <a href="#" class="login">Login</a>
-    <a href="#" class="signup">Sign up</a>
+    <section id="top-section">
+      <div class="text">
+        <h1>Start your unforgettable journey with us.</h1>
+        <p>The best travel for your journey begins now</p>
+      </div>
 
+      <div class="booking">
+        <div class="field">
+          <label for="destination">DESTINATION</label>
+          <input type="text" id="destination" value="Dubai" />
+        </div>
 
-  </header>
+        <div class="field">
+          <label for="person">PERSON</label>
+          <input type="text" id="person" value="2" />
+        </div>
 
+        <div class="field">
+          <label for="check-in">CHECK IN</label>
+          <input type="text" id="check-in" value="Sun, 17th Sep 2020" />
+        </div>
 
-  <section id="top-section">
+        <div class="field">
+          <label for="check-out">CHECK OUT</label>
+          <input type="text" id="check-out" value="Tue, 17th Oct 2020" />
+        </div>
 
-    <div class="text">
-      <h1>Start your unforgettable journey with us.</h1>
-      <p>The best travel for your journey begins now</p>
-    </div>
-
-    <div class="booking">
-    
-    <div class="field">
-        <label for="destination">DESTINATION</label>
-        <input type="text" id="destination" value="Dubai">
-    </div>
-
-    <div class="field">
-        <label for="person">PERSON</label>
-        <input type="text" id="person" value="2">
-    </div>
-
-    <div class="field">
-        <label for="check-in">CHECK IN</label>
-        <input type="text" id="check-in" value="Sun, 17th Sep 2020">
-    </div>
-
-    <div class="field">
-        <label for="check-out">CHECK OUT</label>
-        <input type="text" id="check-out" value="Tue, 17th Oct 2020">
-    </div>
-
-    <button >Book Now &rarr;</button>
-    
-
-    </div>
-    
-
-
-
-
-
-
-
-  </section>
-
-    
-
-
-
-
-
-
-
-
-
+        <button>Book Now &rarr;</button>
+      </div>
+    </section>
   </body>
 </html>
